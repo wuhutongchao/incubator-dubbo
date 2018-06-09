@@ -24,7 +24,7 @@
     <!-- consumer's application name, used for tracing dependency relationship (not a matching criterion),
     don't set it same as provider -->
     <dubbo:application name="demo-consumer"/>
-
+ 
     <!-- use multicast registry center to discover service -->
     <dubbo:registry address="zookeeper://10.230.20.224:2181"/>
 
